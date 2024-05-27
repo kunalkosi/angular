@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    background: aliceblue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card img{
+    width: 80%;
+    height: 60%;
+}
+.title h5{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 15px 2px;
+}
+.title p{
+    text-align: center;
+  font-size: 1rem;
+}
