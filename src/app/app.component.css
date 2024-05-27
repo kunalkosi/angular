@@ -11,10 +11,13 @@
     justify-content: center;
     align-items: center;
     width: 250px;
-    background: aliceblue;
+    background: rgb(253, 254, 255);
+    box-shadow: 2px 2px 10px #cacaca;
     padding: 10px;
     margin: 20px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ;
 }
 .card img{
     width: 80%;
@@ -28,4 +31,7 @@
 .title p{
     text-align: center;
   font-size: 1rem;
+}
+.card:hover{
+    transform: translateY(-10px);
 }
